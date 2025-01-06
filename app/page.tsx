@@ -34,77 +34,77 @@ export default function Home() {
       <InsurancePartners />
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-[1px] bg-orange-500">
-            <div className="bg-black p-8 hover:bg-black/80 transition-colors h-full">
-              <Link href="/servicii">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-[1px] bg-orange-500 border border-solid border-orange-500">
+            <Link href="/servicii">
+              <div className="bg-black p-8 hover:bg-black/80 transition-colors h-40">
                 <h3 className="text-orange-500 text-xl font-bold mb-4">
                   CONSTATARI DAUNE
                 </h3>
-              </Link>
-            </div>
-            <div className="bg-black p-8 hover:bg-black/80 transition-colors h-full">
-              <Link href="/servicii">
+              </div>
+            </Link>
+            <Link href="/servicii">
+              <div className="bg-black p-8 hover:bg-black/80 transition-colors h-40">
                 <h3 className="text-orange-500 text-xl font-bold mb-4">
                   MASINA LA SCHIMB
                 </h3>
-              </Link>
-            </div>
-            <div className="bg-black p-8 hover:bg-black/80 transition-colors h-full">
-              <Link href="/servicii">
+              </div>
+            </Link>
+            <Link href="/servicii">
+              <div className="bg-black p-8 hover:bg-black/80 transition-colors h-40">
                 <h3 className="text-orange-500 text-xl font-bold mb-4">
                   REGIE PROPRIE
                 </h3>
-              </Link>
-            </div>
-            <div className="bg-black p-8 hover:bg-black/80 transition-colors h-full">
-              <Link href="/servicii">
+              </div>
+            </Link>
+            <Link href="/servicii">
+              <div className="bg-black p-8 hover:bg-black/80 transition-colors h-40">
                 <h3 className="text-orange-500 text-xl font-bold mb-4">
                   TRANSCRIERI AUTO
                 </h3>
-              </Link>
-            </div>
-            <div className="bg-black p-8 hover:bg-black/80 transition-colors h-full">
-              <Link href="/servicii">
+              </div>
+            </Link>
+            <Link href="/servicii">
+              <div className="bg-black p-8 hover:bg-black/80 transition-colors h-40">
                 <h3 className="text-orange-500 text-xl font-bold mb-4">
                   ASIGURARI
                 </h3>
-              </Link>
 
-              <ul className="space-y-2 text-orange-500">
-                <li>RCA</li>
-                <li>CASCO</li>
-                <li>LOCUINTE</li>
-                <li>CALATORII</li>
-              </ul>
-            </div>
-            <div className="bg-black p-8 hover:bg-black/80 transition-colors h-full">
-              <Link href="/servicii">
+                <ul className="text-orange-500 flex gap-3 items-center flex-wrap">
+                  <li>RCA</li>
+                  <li>CASCO</li>
+                  <li>LOCUINTE</li>
+                  <li>CALATORII</li>
+                </ul>
+              </div>
+            </Link>
+            <Link href="/servicii">
+              <div className="bg-black p-8 hover:bg-black/80 transition-colors h-40">
                 <h3 className="text-orange-500 text-xl font-bold mb-4">
                   TRACTARI AUTO 24 H
                 </h3>
-              </Link>
-            </div>
-            <div className="bg-black p-8 hover:bg-black/80 transition-colors h-full">
-              <Link href="/servicii">
+              </div>
+            </Link>
+            <Link href="/servicii">
+              <div className="bg-black p-8 hover:bg-black/80 transition-colors h-40">
                 <h3 className="text-orange-500 text-xl font-bold mb-4">
                   CONSULTANTA DAUNE
                 </h3>
-              </Link>
-            </div>
-            <div className="bg-black p-8 hover:bg-black/80 transition-colors h-full">
-              <Link href="/servicii">
+              </div>
+            </Link>
+            <Link href="/servicii">
+              <div className="bg-black p-8 hover:bg-black/80 transition-colors h-40">
                 <h3 className="text-orange-500 text-xl font-bold mb-4">
                   REPARATII AUTO
                 </h3>
-              </Link>
-            </div>
-            <div className="bg-black p-8 hover:bg-black/80 transition-colors h-full">
-              <Link href="/servicii">
+              </div>
+            </Link>
+            <Link href="/servicii">
+              <div className="bg-black p-8 hover:bg-black/80 transition-colors h-40">
                 <h3 className="text-orange-500 text-xl font-bold mb-4">
                   EVALUARI AUTO
                 </h3>
-              </Link>
-            </div>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
