@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <Layout>
-      <section className="relative min-h-[600px] flex items-center">
+      <section className="relative min-h-[750px] flex items-center">
         <div className="absolute inset-0">
           <Image
             width={0}
@@ -17,7 +17,6 @@ export default function Home() {
             className="w-full h-full object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-black/60" />
         </div>
         <div className="container mx-auto px-4 relative">
           <div className="max-w-md bg-black p-6 rounded-lg">
